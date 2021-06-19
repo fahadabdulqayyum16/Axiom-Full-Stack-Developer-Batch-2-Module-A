@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Seat Selector</title>
+</head>
+<body>
+    <div class="theatre-container">
+        <!-- This is the select box of waht movie user wants to watch -->
+        <label for="">Select your movie: </label>
+        <select id="movie">
+            <option value="20">Top Gun 2</option>
+            <option value="7">Jumanji</option>
+            <option value="10">Avengers</option>
+            <option value="10">Iron Man</option>
+            <option value="5">Braveheart</option>
+        </select>
+    </div>
+
+    <!-- This is the legend displaying available, selected, and occupied seat formatting -->
+    <ul class="legend">
+        <!-- Available seats -->
+        <li>
+            <div class="seat"></div>
+            <small>Available</small>
+        </li>
+        <!-- Selected seats -->
+        <li>
+            <div class="seat selected"></div>
+            <small>Selected</small>
+        </li>
+        <!-- Occupied Seats -->
+        <li>
+            <div class="seat"></div>
+            <small>Occupied</small>
+        </li>
+    </ul>
+
+    <!-- The container for displaying screen and seating chart -->
+
+    <script src="scritp.js"></script>
+</body>
+</html>
